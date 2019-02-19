@@ -1,0 +1,4 @@
+## Build
+docker image  build -t nginx-local .
+##Run
+docker run -p  80:80 nginx-local
